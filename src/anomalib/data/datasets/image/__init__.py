@@ -37,6 +37,7 @@ from .realiad import RealIADDataset
 from .tabular import TabularDataset
 from .vad import VADDataset
 from .visa import VisaDataset
+from .smoread import SmoreADDataset
 
 __all__ = [
     "BTechDataset",
@@ -52,4 +53,5 @@ __all__ = [
     "TabularDataset",
     "VADDataset",
     "VisaDataset",
+    "SmoreADDataset"
 ]

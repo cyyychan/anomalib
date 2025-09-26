@@ -64,6 +64,7 @@ from .datamodules.image import (
     RealIAD,
     Tabular,
     Visa,
+    SmoreAD
 )
 from .datamodules.video import Avenue, ShanghaiTech, UCSDped, VideoDataFormat
 
@@ -185,6 +186,7 @@ __all__ = [
     "MVTecAD",
     "MVTecAD2",
     "MVTecLOCO",
+    "SMoreAD",
     "RealIAD",
     "Tabular",
     "VAD",

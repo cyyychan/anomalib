@@ -1,0 +1,4 @@
+/mnt/d/workspace/anomal-detect/bottle/train/good/000.png,good
+/mnt/d/workspace/anomal-detect/bottle/train/good/001.png,good
+/mnt/d/workspace/anomal-detect/bottle/train/good/002.png,good
+/mnt/d/workspace/anomal-detect/bottle/train/good/003.png,good

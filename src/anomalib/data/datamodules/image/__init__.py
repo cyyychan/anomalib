@@ -37,6 +37,7 @@ from .kolektor import Kolektor
 from .mpdd import MPDD
 from .mvtec_loco import MVTecLOCO
 from .mvtecad import MVTec, MVTecAD
+from .smdatasets import SmoreAD
 from .mvtecad2 import MVTecAD2
 from .realiad import RealIAD
 from .tabular import Tabular
