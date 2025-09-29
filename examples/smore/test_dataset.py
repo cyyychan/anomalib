@@ -8,8 +8,9 @@ from anomalib.data import MVTecAD
 
 # Initialize components
 # datamodule = MVTecAD("/mnt/d/workspace/anomal-detect", category="bottle")
-datamodule = SmoreAD("/mnt/d/workspace/anomal-detect/bottle/train.txt", "/mnt/d/workspace/anomal-detect/bottle/test.txt")
+datamodule = SmoreAD("/dataset/siyuanchen/AD/datasets/Anamalib_test/train.txt", "/dataset/siyuanchen/AD/datasets/Anamalib_test/test.txt")
 datamodule.setup()
+
 
 # 获取第一个batch的数据
 train_dataloader = datamodule.train_dataloader()
