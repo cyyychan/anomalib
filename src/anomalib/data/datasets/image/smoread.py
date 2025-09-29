@@ -116,7 +116,7 @@ def make_ad_dataset(
         line = line.strip()
         img_path = line.split(delimeter)[0]
         label = line.split(delimeter)[1]
-        samples_list.append({"path": os.path.dirname(img_path), "split": split, "label": label, "image_path": img_path, "mask_path": None})
+        samples_list.append({"path": os.path.dirname(img_path), "split": split, "label": label, "image_path": img_path, "mask_path": ""})
 
     if not samples_list:
         msg = f"Found 0 images in {txt_path}"
